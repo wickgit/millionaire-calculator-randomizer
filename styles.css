@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu div {
+  flex: 1;
+  height: 100vh;
+  font-size: 60px;
+  text-align: center;
+  line-height: 100vh;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+}
+
+#menu div:hover {
+  flex: 1.5;
+  transition: 1s ease;
+}
+
+#calculator {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+}
+
+#millionaire {
+  background: linear-gradient(to right,rgb(10, 10, 87), rgb(13, 13, 154));
+  color: white;
+}
+
+#randomizer {
+  background: linear-gradient(to right, #b3ffab, #12fff7);
+  color: white;
+}

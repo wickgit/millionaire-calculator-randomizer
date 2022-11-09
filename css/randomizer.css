@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+body {
+  background: linear-gradient(to right, #b3ffab, #12fff7);
+}
+
+#back {
+  position: fixed;
+  width: 50px;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+
+#wrapper {
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0;
+  width: 440px;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#wrapper .range{
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper button {
+  margin-top: 10px;
+  align-self: center;
+  padding: 8px 50px;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#wrapper button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: black;
+  transition: 0.3s ease;
+}
+
+
+input[type=number] {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+input[type=checkbox] {
+  width: 17px;
+  height: 17px;
+  margin-right: 3px;
+}
+
+
+
+#result {
+  max-width: 400px;
+  min-width: 100%;
+  text-align: center;
+}

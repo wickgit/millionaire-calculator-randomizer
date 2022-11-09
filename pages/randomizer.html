@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Randomizer</title>
+  <link rel="stylesheet" href="../css/randomizer.css">
+</head>
+<body>
+  <img src="../media/left-arrow.png" alt="arrow" id="back">
+  <div id="wrapper">
+    <div class="range">
+      <label for="start">Від:</label>
+      <input type="number" min="0" id="start">
+    </div>
+    <div class="range">
+      <label for="end">До:</label>
+      <input type="number" min="0" id="end">
+    </div>
+    <div class="range">
+      <label for="quantity">Кількість:</label>
+      <input type="number" min="1" id="quantity">
+    </div>
+    <div id="unique">
+      <input type="checkbox" id="unique-numbers">
+      <label for="unique-numbers">Унікальні числа</label>
+    </div>
+    <button>Згенерувати</button>
+    <div id="result"></div>
+  </div>
+
+
+  <script src="../js/randomizer.js"></script>
+</body>
+</html>
