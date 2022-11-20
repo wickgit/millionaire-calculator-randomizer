@@ -72,7 +72,7 @@ function operate(operator, a, b) { // Операції
 
   if (operator == '+') return (a*10 + b*10) / 10;
   else if (operator == '-') return (a*10 - b*10) / 10;
-  else if (operator == '/') return a / b;
+  else if (operator == '/') return (a*10 / b*10) / 10;
   else if (operator == '*') return (a*10 * b*10) / 100;
 }
 
